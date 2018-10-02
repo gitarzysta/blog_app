@@ -4,7 +4,7 @@ import (
 	"github.com/gobuffalo/buffalo"
 	"github.com/markbates/pop"
 	"github.com/markbates/validate"
-	"github.com/mikaelm1/blog_app/models"
+	"github.com/gitarzysta/blog_app/models"
 	"github.com/pkg/errors"
 )
 

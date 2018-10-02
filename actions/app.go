@@ -10,7 +10,7 @@ import (
 	"github.com/gobuffalo/buffalo/middleware/csrf"
 	"github.com/gobuffalo/buffalo/middleware/i18n"
 	"github.com/gobuffalo/packr"
-	"github.com/mikaelm1/blog_app/models"
+	"github.com/gitarzysta/blog_app/models"
 )
 
 // ENV is used to help switch settings based on where the
