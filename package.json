@@ -29,7 +29,7 @@
     "webpack-manifest-plugin": "~1.2.1"
   },
   "devDependencies": {
-    "bootstrap": "4.0.0-beta.2",
+    "bootstrap": "4.0.0",
     "popper.js": "^1.12.9"
   }
 }
