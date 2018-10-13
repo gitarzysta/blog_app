@@ -10,4 +10,6 @@ $ buffalo setup
 $ buffalo dev
 ```
 
-If you now visit [http://localhost:3000](http://localhost:3000) in your browser, you should see the app.
+If you now visit [http://localhost:33333](http://localhost:33333) in your browser, you should see the app.
+
+Port is specified in .env
