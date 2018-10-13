@@ -3,10 +3,10 @@ package models
 import (
 	"time"
 
-	"github.com/markbates/pop"
-	"github.com/markbates/validate"
-	"github.com/markbates/validate/validators"
-	uuid "github.com/satori/go.uuid"
+	"github.com/gobuffalo/pop"
+	uuid "github.com/gobuffalo/uuid"
+	"github.com/gobuffalo/validate"
+	"github.com/gobuffalo/validate/validators"
 )
 
 type Comment struct {

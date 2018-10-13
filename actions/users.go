@@ -1,10 +1,10 @@
 package actions
 
 import (
-	"github.com/gobuffalo/buffalo"
-	"github.com/markbates/pop"
-	"github.com/markbates/validate"
 	"github.com/gitarzysta/blog_app/models"
+	"github.com/gobuffalo/buffalo"
+	"github.com/gobuffalo/pop"
+	"github.com/gobuffalo/validate"
 	"github.com/pkg/errors"
 )
 
@@ -86,7 +86,7 @@ func SetCurrentUser(next buffalo.Handler) buffalo.Handler {
 			tx := c.Value("tx").(*pop.Connection)
 			err := tx.Find(u, uid)
 			if err != nil {
-				return errors.WithStack(err)
+//				return errors.WithStack(err)
 			}
 			c.Set("current_user", u)
 		}

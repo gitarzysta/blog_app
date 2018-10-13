@@ -1,9 +1,9 @@
 package actions
 
 import (
-	"github.com/gobuffalo/buffalo"
-	"github.com/markbates/pop"
 	"github.com/gitarzysta/blog_app/models"
+	"github.com/gobuffalo/buffalo"
+	"github.com/gobuffalo/pop"
 	"github.com/pkg/errors"
 )
 
